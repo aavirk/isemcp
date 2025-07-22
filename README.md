@@ -47,11 +47,9 @@ cp .env-example .env
 2. Update the `.env` file with your ISE credentials:
 
 ```env
-ISE_HOST="your-ise-host.example.com"
+ISE_URL="your-ise-host.example.com"
 ISE_USERNAME="your-username"
 ISE_PASSWORD="your-password"
-ISE_VERIFY_SSL="false"  # Set to "true" for production environments
-ISE_PORT="9060"  # Default ISE ERS API port
 ```
 
 ## Usage With Claude Desktop Client
